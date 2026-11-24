@@ -1,0 +1,53 @@
+.contatos__div {
+    margin: 70px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contatos__div__titulo{
+    font-family: "Exo 2", sans-serif;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+.contatos__div__lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contatos__div__lista__item {
+    display: flex;
+    align-items: center;
+    font-family: "Exo 2", sans-serif;
+    margin: 20px;
+}
+
+.contatos__div__lista__item__imagem {
+    width: 60px;
+}
+
+.contatos__div__lista__item__descricao {
+    margin-left: 24px;
+}
+
+@media (max-width: 1100px) {
+    .contatos__div__titulo{
+        font-size: 30px;
+    }
+
+    .contatos__div__lista{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .contatos__div__lista__item__descricao{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .contatos__div__lista{
+        margin: 0;
+        padding: 0;
+    }
+}
