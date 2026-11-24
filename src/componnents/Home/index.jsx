@@ -22,7 +22,7 @@ function Home() {
 
         <main>
             <div className={styles.apresentacao}>
-                <img src="/img/mascote.png" alt="mascote da pagina" className={styles.apresentacao__logo} />
+                <img src="/projeto-locadora-de-carro-react/img/mascote.png" alt="mascote da pagina" className={styles.apresentacao__logo} />
                 <h2 className={styles.apresentacao__frase}>Qual tipo de carro está buscando no momento?</h2>
 
             </div>
@@ -40,7 +40,7 @@ function Home() {
                         return (
                             <li className={styles.sugestoes__lista__objeto} key={carArray[carro].concessionaria + carArray[carro].nome}>
                                 <Link to={"/categoria/" + carArray[carro].tipo + "/" + carArray[carro].nome} className={styles.sugestoes__lista__objeto__link}>
-                                    <img src={"/img/" + carArray[carro].tipo + "/" + carArray[carro].concessionaria + carArray[carro].nome + "/" + carArray[carro].concessionaria + carArray[carro].nome + "1.png"}
+                                    <img src={"/projeto-locadora-de-carro-react/img/" + carArray[carro].tipo + "/" + carArray[carro].concessionaria + carArray[carro].nome + "/" + carArray[carro].concessionaria + carArray[carro].nome + "1.png"}
                                         alt={"foto" + carArray[carro].concessionaria + " " + carArray[carro].nome} className={styles.sugestoes__lista__objeto__imagem} />
                                     <h3 className={styles.sugestoes__lista__objeto__titulo}> {carArray[carro].concessionaria + " " + carArray[carro].nome}</h3>
                                 </Link>

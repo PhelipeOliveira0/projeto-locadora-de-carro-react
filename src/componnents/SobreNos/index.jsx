@@ -7,7 +7,7 @@ function SobreNos() {
 
         <main>
             <div className={styles.apresentacao}>
-                <img src="./img/mascote.png" alt="mascote" className={styles.apresentacao__imagem}/>
+                <img src="/projeto-locadora-de-carro-react/img/mascote.png" alt="mascote" className={styles.apresentacao__imagem}/>
                 <p className={styles.apresentacao__texto}>Este é um projeto de portfólio que criei para exercitar meu React<br></br><Link to="https://github.com/PhelipeOliveira0/projeto-locadora-de-carro-react.git">Click aqui para ver os arquivos</Link></p>
             </div>
             <Contatos/>

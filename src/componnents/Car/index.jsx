@@ -21,12 +21,12 @@ function Car() {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
     const imagens = [
-        `/img/${carroFiltrado.tipo}/${carroFiltrado.concessionaria}${carroFiltrado.nome}/${carroFiltrado.concessionaria}${carroFiltrado.nome}1.png`,
-        `/img/${carroFiltrado.tipo}/${carroFiltrado.concessionaria}${carroFiltrado.nome}/${carroFiltrado.concessionaria}${carroFiltrado.nome}2.png`,
-        `/img/${carroFiltrado.tipo}/${carroFiltrado.concessionaria}${carroFiltrado.nome}/${carroFiltrado.concessionaria}${carroFiltrado.nome}3.png`,
-        `/img/${carroFiltrado.tipo}/${carroFiltrado.concessionaria}${carroFiltrado.nome}/${carroFiltrado.concessionaria}${carroFiltrado.nome}4.png`,
-        `/img/${carroFiltrado.tipo}/${carroFiltrado.concessionaria}${carroFiltrado.nome}/${carroFiltrado.concessionaria}${carroFiltrado.nome}5.png`,
-        `/img/${carroFiltrado.tipo}/${carroFiltrado.concessionaria}${carroFiltrado.nome}/${carroFiltrado.concessionaria}${carroFiltrado.nome}6.png`,
+        `/projeto-locadora-de-carro-react/img/${carroFiltrado.tipo}/${carroFiltrado.concessionaria}${carroFiltrado.nome}/${carroFiltrado.concessionaria}${carroFiltrado.nome}1.png`,
+        `/projeto-locadora-de-carro-react/img/${carroFiltrado.tipo}/${carroFiltrado.concessionaria}${carroFiltrado.nome}/${carroFiltrado.concessionaria}${carroFiltrado.nome}2.png`,
+        `/projeto-locadora-de-carro-react/img/${carroFiltrado.tipo}/${carroFiltrado.concessionaria}${carroFiltrado.nome}/${carroFiltrado.concessionaria}${carroFiltrado.nome}3.png`,
+        `/projeto-locadora-de-carro-react/img/${carroFiltrado.tipo}/${carroFiltrado.concessionaria}${carroFiltrado.nome}/${carroFiltrado.concessionaria}${carroFiltrado.nome}4.png`,
+        `/projeto-locadora-de-carro-react/img/${carroFiltrado.tipo}/${carroFiltrado.concessionaria}${carroFiltrado.nome}/${carroFiltrado.concessionaria}${carroFiltrado.nome}5.png`,
+        `/projeto-locadora-de-carro-react/img/${carroFiltrado.tipo}/${carroFiltrado.concessionaria}${carroFiltrado.nome}/${carroFiltrado.concessionaria}${carroFiltrado.nome}6.png`,
     ];
 
     return (

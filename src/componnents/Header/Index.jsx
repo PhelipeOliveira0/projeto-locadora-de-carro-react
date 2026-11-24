@@ -21,7 +21,7 @@ function Header() {
             <ol className={styles.listaPrincipal}>
 
                 <button onClick={() => setMenuAberto(!menuAberto)} className={`${styles.menuHamburguer} ${styles.menuHamburguerBtn}`}>
-                    <img src="/img/menuHamburguer.svg" alt="Menu" />
+                    <img src="/projeto-locadora-de-carro-react/img/menuHamburguer.svg" alt="Menu" />
                 </button>
 
                 <nav className={`${styles.menuMobile} ${menuAberto ? styles.aberto : ""} ${styles.menuHamburguer}`}>
@@ -53,7 +53,7 @@ function Header() {
                     </ol>
                 </li>
             </ol>
-            <img src="/img/logo.png" alt="logo site" className={styles.header__logo} />
+            <img src="/projeto-locadora-de-carro-react/img/logo.png" alt="logo site" className={styles.header__logo} />
 
         </header>
     )

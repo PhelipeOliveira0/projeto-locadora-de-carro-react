@@ -13,7 +13,7 @@ import Categoria from './componnents/Categoria';
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename='/projeto-locadora-de-carro-react'>
             <Routes>
                 <Route path="/" element={<App />}>
                     <Route index element={<Home />} />

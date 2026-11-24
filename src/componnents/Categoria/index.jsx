@@ -19,7 +19,7 @@ function Categoria() {
                         return(
                         <li key={carro.concessionaria + carro.nome} className={styles.lista__item}>
                             <Link to={`/categoria/${carro.tipo}/${carro.nome}`} className={styles.lista__item__link}>
-                                <img className={styles.lista__item__link__imagem} src={"/img/" + carro.tipo + "/" + carro.concessionaria + carro.nome + "/" + carro.concessionaria + carro.nome + "1.png"}
+                                <img className={styles.lista__item__link__imagem} src={"/projeto-locadora-de-carro-react/img/" + carro.tipo + "/" + carro.concessionaria + carro.nome + "/" + carro.concessionaria + carro.nome + "1.png"}
                                     alt={"Foto" + carro.concessionaria + " " + carro.nome} />
                                 <h3>{carro.concessionaria + " " + carro.nome}</h3>
                             </Link>
